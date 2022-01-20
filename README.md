@@ -4,6 +4,7 @@
 
 Spine Importer is a plugin for the [Godot Engine](https://godotengine.org). 
 It is designed to make 2D rigging significantly faster and more accurate by placing your rigging textures for you.
+**It does not currently support full Spine2D capabilities**, and is mainly useful for importing from applications like Affinity Designer, Photoshop, [Etc](https://github.com/EsotericSoftware/spine-scripts). 
 
 ## How to install
 
