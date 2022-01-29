@@ -16,7 +16,9 @@ You may either install through the Godot Asset Library, or you can download a zi
 To use this plugin simply enable it, you can find the official instructions [here](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html#enabling-a-plugin).
 Add your images/textures to your project along with your Spine.json file. Your Spine.json file should now behave like a Scene inside of the godot editor. If everything worked well, you should see your sprites laid out appropriately.
 
-> Note: You may need to re-import your Spine.json file from the import dock if your Spine.json file was imported before your images/textures were.
+> ⚠ Note: You may need to re-import your Spine.json file from the import dock if your Spine.json file was imported before your images/textures were.
+
+The current recommended workflow is to open the generated spine scene by clicking "Open Anyway", copying the nodes that you need and then pasting them into a new scene. If you instead clicked "New Inherited" you will need to save the inherited scene at least once, then right click the root node in the scene dock and click "Clear Inheritance". If you do not clear the inheritance, you will have to deal with oddities if the spine.json gets re-imported.
 
 
 ## License
